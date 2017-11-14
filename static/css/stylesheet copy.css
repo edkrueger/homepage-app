@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* main formatting */
+body {
+	margin-top:0px;
+	width:768px;
+	font-family:sans-serif;
+	font-size:11px;
+}
+
+
+/* div formatting */
+#resume_header, #objective, #skills, #honors, #education, #jobs, #projects {
+	text-align:center;
+}
+
+#coverletter {
+	margin-top:150px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+#signature {
+	margin-left:100px;
+	margin-right:100px;
+}
+
+/*table formatting*/
+table.resume {
+	width:100%;
+}
+
+td.resume {
+	width:50%;
+	vertical-align: text-top;
+}
+
+/* text formatting */
+h1.resume, h2.resume, h3.resume, h4.resume {
+	display: inline;
+    margin-top: 0.00em;
+    margin-bottom: 0.00em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
