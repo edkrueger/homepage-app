@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+}
+
+/*
+ * Formatting the header area
+ */
+
+header {
+  background-color: #FFFFF;
+  height: 45px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px #A7A2A3;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+header h1.logo {
+  font-weight:normal;
+  color: #000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  float: left;
+}
+
+header a.nav_link {
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+}
+
+header a.nav_link:hover {
+  color:#2475B2;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+}
+  
+
+/*
+ * Center the body content
+ */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+div.home, div.about, div.resume, div.projects, div.contacts {
+  color:000000;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 10px 0 30px 0;
+  background-color: #FFFFFF;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+img.headshot {
+  width:200px;
+  box-shadow: 5px 5px 10px #A7A2A3;
+  display: block;
+  margin: 0 auto;
+}
+
+img.icon {
+  width: 30px;
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+/* resume formatting */
+div.resume {
+  width:768px;
+  font-family:sans-serif;
+  font-size:11px;
+  margin:0 auto;
+  box-shadow: 5px 5px 10px #A7A2A3;
+}
+
+table.resume {
+  width:100%;
+}
+
+td.resume {
+  width:50%;
+  vertical-align: text-top;
+}
+
+h1.resume, h2.resume, h3.resume, h4.resume {
+  display: inline;
+    margin-top: 0.00em;
+    margin-bottom: 0.00em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#resume_header, #objective, #skills, #honors, #education, #jobs, #projects {
+  text-align:center;
+}
+
+a.resume{
+  font-family: sans-serif;
+  color:#000000;
+}
+
+a.resume:hover {
+  font-family: sans-serif;
+  color:#2475B2;
+}
+
+/*Formatting Contact*/
+
+a.contact_link, span.contact_text{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+a.contact_link:hover {
+  color:#2475B2;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  text-decoration: none;
+}
+
+
+.menu li {
+  display: inline;
+}
+
+.menu li + li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+}
