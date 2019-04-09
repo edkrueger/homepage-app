@@ -163,7 +163,8 @@
                 </td>                
            </tr>
         </table>
-        <p><a href="static/resume_nov_2017.pdf" class = "resume">Click here for a printer friendly version</a></p>
+        <p><a href="{{
+            url_for('static', filename='resume_nov_2017.pdf')}}" class = "resume">Click here for a printer friendly version</a></p>
     </div>
 </div>
 {%endblock%}
